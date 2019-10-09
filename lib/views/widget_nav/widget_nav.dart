@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
 
-class SchoolNav extends StatefulWidget {
+class WidgetNav extends StatefulWidget {
   @override
-  _SchoolNavState createState() => _SchoolNavState();
+  _WidgetNavState createState() => _WidgetNavState();
 }
 
-class _SchoolNavState extends State<SchoolNav> {
+class _WidgetNavState extends State<WidgetNav> {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(
-        title: new Text('School'),
+        title: new Text('Widget'),
       ),
       body: new Center(
         child: Icon(
-          Icons.school,
+          Icons.extension,
           size: 130.0,
           color: Colors.blue,
         ),
