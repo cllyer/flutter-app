@@ -16,3 +16,14 @@ Color c = Colors.green[400];
 
 #### 底部导航栏
 [BottomNavigationBar](https://api.flutter.dev/flutter/material/BottomNavigationBar-class.html)与[BottomNavigationBarItem](https://api.flutter.dev/flutter/widgets/BottomNavigationBarItem-class.html)搭配使用来组建底部导航栏。
+
+#### 关于滚动
+当组件内容超过当前显示视口(ViewPort)时，如果没有特殊处理，Flutter则会提示Overflow错误。  
+[常用滚动组件](https://book.flutterchina.club/chapter6/)  
++ Scrollbar && SingleChildScrollView
++ ListView
++ GridView
++ CustomScrollView
+
+对于可滚动组件，可以用ScrollController来控制可滚动组件的滚动位置。
+
